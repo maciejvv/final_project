@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class PlayWithTextConsole {
+public class Play {
 
     public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class PlayWithTextConsole {
             int tries = 15;
 
             // main menu
-            System.out.println("Welcome to Mastermind");
+            System.out.println("Welcome to main menu");
             System.out.println("Type d to adjust difficulty level");
             System.out.println("Type e to exit");
             System.out.println("Type anything else to play");
